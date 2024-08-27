@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vízitka</title>
+    <style>
+        body {
+            background-color: #004d00; /* Тёмно-зелёный цвет фона */
+            color: white; /* Белый цвет текста */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            height: 80%;
+            background-color: #006600; /* Ещё один оттенок тёмно-зелёного */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+        }
+        .text-section {
+            width: 50%;
+            padding: 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #003300; /* Ещё более тёмный зелёный */
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .address {
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .image-section {
+            width: 50%;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1>Parkovací místa do pronájmu</h1>
+            <p>Telefonní číslo: +420 123 456 789</p>
+            <p class="address">Sídlo parkoviště: Štěpařská</p>
+        </div>
+        <div class="image-section" style="background-image: url('parking.jpg');">
+            <!-- Замените 'parking.jpg' на путь к вашему изображению -->
+        </div>
+    </div>
+</body>
+</html>
