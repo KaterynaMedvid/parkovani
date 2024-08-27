@@ -51,9 +51,10 @@
             width: 50%;
             background-size: cover;
             background-position: center;
+            min-height: 200px;
         }
 
-        
+
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
@@ -79,6 +80,9 @@
                 font-size: 16px;
                 margin-top: 15px;
             }
+            .image-section {
+                min-height: 250px; 
+            }
         }
 
         @media (max-width: 480px) {
@@ -94,6 +98,9 @@
                 font-size: 14px;
                 margin-top: 10px;
             }
+            .image-section {
+                min-height: 200px; 
+            }
         }
     </style>
 </head>
@@ -105,7 +112,6 @@
             <p class="address">Sídlo parkoviště: Praha 5, Štěpařská 1098/22</p>
         </div>
         <div class="image-section" style="background-image: url('parking.jpg');">
-          
         </div>
     </div>
 </body>
